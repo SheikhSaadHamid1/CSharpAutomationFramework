@@ -9,7 +9,7 @@ using SampleCSharpFramework.Configurations;
 
 namespace SampleCSharpFramework.Utilities
 {
-    class ExcelUtility
+    public class ExcelUtility
     {
         #region Fields
         private static IWorkbook _workbook = null;

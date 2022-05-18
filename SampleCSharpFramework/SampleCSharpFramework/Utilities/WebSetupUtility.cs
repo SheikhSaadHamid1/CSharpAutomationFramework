@@ -9,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using WebDriverManager.DriverConfigs.Impl;
 
 namespace SampleCSharpFramework.Utilities
 {
@@ -121,8 +122,11 @@ namespace SampleCSharpFramework.Utilities
         private IWebDriver InitializeChromeBrowser()
         {
             //Method to open Chrome Browser
-            var browserPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            /*var browserPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             _driver = new ChromeDriver(browserPath);
+            */
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+            _driver = new ChromeDriver();
             return _driver;
         }
 

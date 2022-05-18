@@ -4,6 +4,7 @@ using System;
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.MarkupUtils;
 
+
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System.Diagnostics;
@@ -13,7 +14,7 @@ using SampleCSharpFramework.Utilities;
 namespace SampleCSharpFramework.Configurations
 {
     [SetUpFixture]
-    class Base
+    public class Base
     {
           
       
@@ -29,7 +30,7 @@ namespace SampleCSharpFramework.Configurations
 
             #region Fields
             private readonly static string _url = ConfigurationConstants.URL;
-
+            
             #endregion
 
             #region Properties
@@ -38,6 +39,7 @@ namespace SampleCSharpFramework.Configurations
             public static ExtentTest ExtentTest { get; set; }
             public static ExtentTest ParentTest { get; set; }
             public static WebDriverWait Wait { get; set; }
+          
 
             #endregion
 
@@ -58,7 +60,7 @@ namespace SampleCSharpFramework.Configurations
                     WebSetupUtility setup = WebSetupUtility.GetInstance;
                     //Opening Browser and instantiating Driver 
                     Driver = setup.InitializeBrowser();
-
+                Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(Double.Parse(ConfigurationConstants.ExplicitWait)));
                     if (Driver != null)
                     {
                         //Navigating to the url of Application under test.

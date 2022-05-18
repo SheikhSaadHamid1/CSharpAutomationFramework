@@ -1,7 +1,8 @@
 ﻿using AventStack.ExtentReports.Reporter.Configuration;
 using System;
 using System.Configuration;
-
+using System.Diagnostics;
+using System.IO;
 
 namespace SampleCSharpFramework.Configurations
 {
@@ -18,9 +19,11 @@ namespace SampleCSharpFramework.Configurations
         {
             get
             {
-                return !String.IsNullOrEmpty(ConfigurationManager.AppSettings.Get("Url"))
-                      ? ConfigurationManager.AppSettings.Get("Url")
-                      : null;
+                string url = ConfigurationManager.AppSettings.Get("Url") != null
+                    ? ConfigurationManager.AppSettings.Get("Url")
+                    : "https://automationteststore.com/";
+
+                return url;
             }
         }
 
@@ -82,8 +85,8 @@ namespace SampleCSharpFramework.Configurations
             get
             {
                 return !String.IsNullOrEmpty(ConfigurationManager.AppSettings.Get("Report_Path"))
-                    ? AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\net48", "") + ConfigurationManager.AppSettings.Get("Report_Path")
-                    : AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\net48", "") + "\\Reports\\Report.html";
+                    ? AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\net5.0", "") + ConfigurationManager.AppSettings.Get("Report_Path")
+                    : AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\net5.0", "") + "\\Reports\\Report.html";
             }
         }
 
@@ -165,6 +168,34 @@ namespace SampleCSharpFramework.Configurations
             }
         }
 
+
+        public static string WinAppServerPath
+        {
+            get
+            {
+                String winAppServerPath = "";
+                String basePath = "";
+
+
+                string workingDirectory = Environment.CurrentDirectory;
+                string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+              
+
+                int index = projectDirectory.IndexOf("SampleCSharpFramework");
+                if (index > 0)
+                {
+                    basePath = projectDirectory.Substring(0, index);
+                 
+                }
+                else
+                {
+                    Debug.WriteLine("Incorrect Base Path");
+
+                }
+                winAppServerPath = basePath + ConfigurationManager.AppSettings.Get("WinAppServer_Path");
+                return winAppServerPath;
+            }
+        }
 
 
 

@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "J2GvzVllqqTBXZmFJsFw4/sCdPq5Klxuila1dnk4LktHLXOh290ycPk1EHaTw0HjVpbqdfl/wB3e63Gyd/ONaA==",
+  "dgSpecHash": "5BnSWMiDQxZOG9/tXVO+RTk5c6p4kVtduKFLDyxqeJ7gxOPNnfMJQApY4hoFt2jCmmsOXOY74Avp054pLv7mtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\shamid\\source\\repos\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shamid\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\extentreports\\4.1.0\\extentreports.4.1.0.nupkg.sha512",
+    "C:\\Users\\shamid\\.nuget\\packages\\ikvm\\8.1.5717\\ikvm.8.1.5717.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -68,12 +70,12 @@
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\microsoft.net.test.sdk.16.9.4.nupkg.sha512",
-    "C:\\Users\\shamid\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\shamid\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\shamid\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
+    "C:\\Users\\shamid\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\mongodb.bson\\2.10.0\\mongodb.bson.2.10.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\mongodb.driver\\2.10.0\\mongodb.driver.2.10.0.nupkg.sha512",
@@ -109,7 +111,7 @@
     "C:\\Users\\shamid\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
-    "C:\\Users\\shamid\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\shamid\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.collections.immutable\\1.3.1\\system.collections.immutable.1.3.1.nupkg.sha512",
@@ -160,7 +162,7 @@
     "C:\\Users\\shamid\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\shamid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\shamid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
@@ -183,7 +185,7 @@
     "C:\\Users\\shamid\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.security.securestring\\4.0.0\\system.security.securestring.4.0.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\shamid\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\shamid\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
@@ -200,7 +202,19 @@
     "C:\\Users\\shamid\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\shamid\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\shamid\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\shamid\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\shamid\\.nuget\\packages\\webdrivermanager\\2.12.4\\webdrivermanager.2.12.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "IKVM",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

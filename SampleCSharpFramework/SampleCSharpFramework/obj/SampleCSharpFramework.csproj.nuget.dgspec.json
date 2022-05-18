@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.1.5717, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
@@ -72,6 +76,10 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.12.4, )"
             },
             "coverlet.collector": {
               "target": "Package",
