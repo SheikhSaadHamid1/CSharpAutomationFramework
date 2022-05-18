@@ -11,14 +11,11 @@ namespace SampleCSharpFramework.Pages.LoginPage
     {
         #region Fields
         private LoginPageHelper login = new LoginPageHelper();
-        private  ExcelUtility excelData ;
+        private ExcelUtility excelData = new ExcelUtility() ;
         #endregion
 
-        public LoginPageObjects()
-        {
-            excelData = new ExcelUtility();
-        }
-
+        
+        
 
 
         #region Methods

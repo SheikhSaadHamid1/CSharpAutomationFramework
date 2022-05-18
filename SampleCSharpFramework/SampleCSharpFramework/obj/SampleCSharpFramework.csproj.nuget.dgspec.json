@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shamid\\source\\repos\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj": {}
+    "D:\\Learning&Development\\GitRepos\\CSharpAutomationFramework\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shamid\\source\\repos\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj": {
+    "D:\\Learning&Development\\GitRepos\\CSharpAutomationFramework\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shamid\\source\\repos\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj",
+        "projectUniqueName": "D:\\Learning&Development\\GitRepos\\CSharpAutomationFramework\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj",
         "projectName": "SampleCSharpFramework",
-        "projectPath": "C:\\Users\\shamid\\source\\repos\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj",
+        "projectPath": "D:\\Learning&Development\\GitRepos\\CSharpAutomationFramework\\SampleCSharpFramework\\SampleCSharpFramework\\SampleCSharpFramework.csproj",
         "packagesPath": "C:\\Users\\shamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shamid\\source\\repos\\SampleCSharpFramework\\SampleCSharpFramework\\obj\\",
+        "outputPath": "D:\\Learning&Development\\GitRepos\\CSharpAutomationFramework\\SampleCSharpFramework\\SampleCSharpFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

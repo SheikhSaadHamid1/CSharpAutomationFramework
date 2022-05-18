@@ -9,9 +9,13 @@ namespace SampleCSharpFramework
     [TestFixture]
     public class SampleTest : Base
     {
+        #region Fields
         HomePageHelper homePage ;
         LoginPageObjects login;
-        
+        #endregion
+
+
+        #region TestMethods
 
         [Test, Order(1)]
         public void Test1()
@@ -37,5 +41,7 @@ namespace SampleCSharpFramework
 
 
         }
+
+        #endregion
     }
 }
