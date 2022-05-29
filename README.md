@@ -1,2 +1,3 @@
 # CSharpAutomationFramework
-Framework to Automate Web UI using C#, NUINIT, Selenium. (WinAPP and RestSharp utilities are yet to be added)
+
+Self Learning project to build an Automation Framework using C#, NUnit, Extent Reports, Apache NPOI to automate a Web Application. 
